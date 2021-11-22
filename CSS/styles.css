@@ -1,0 +1,97 @@
+* {
+    text-decoration: none;
+    color: currentColor;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: darkgrey;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding: 10px;
+    margin: 0;
+}
+
+
+
+main, form, #blcconnexion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    min-height: 91vh;
+}
+
+
+
+form {
+    gap: 10px;
+}
+
+#blcconnexion {
+    padding: 10px;
+    background-color: darkgrey;
+    border-radius: 10%;
+}
+
+input {
+    width: 100%;
+}
+
+input[type="submit"]{
+    cursor:pointer;
+    background-color: black;
+    color: white;
+    transition: all 330ms ease-in-out ;
+
+}
+
+a {
+    padding: 3px;
+    transition: all 330ms ease-in-out;
+}
+
+a:hover {
+    background-color: black;
+    box-shadow: 0 0 0 0.15 black;
+    color: white;
+}
+
+input[type="submit"]:hover{ 
+    background-color: white;
+    box-shadow: 0 0 0 0.15 black;
+    color: black;
+}
+textarea {
+    width: 100%;
+    height: 40vh;
+}
+
+.commentaire {
+    background-color: cornflowerblue;
+    width: 80%;
+    padding: 20px;
+    margin:10px auto;
+}
